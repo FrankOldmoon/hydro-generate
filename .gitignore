@@ -1,0 +1,26 @@
+# ============================================================
+# 生成产物：题目数据目录（由 python3 generate.py 生成，不入库）
+# 每个分类目录下的 data/ 含 problem.yaml / problem_*.md /
+# testdata/ / additional_file/，删掉后可用 generate.py 重新生成。
+# 例：grammar/data/P1012/、algorithm/data/P2001/
+# ============================================================
+**/data/
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# 本地凭据 / 临时文件（禁止入库）
+.env
+cookie*.txt
+*.cookie
+
+# 编辑器 / 系统
+.DS_Store
+.idea/
+.vscode/
+*.swp
